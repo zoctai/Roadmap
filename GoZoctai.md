@@ -26,11 +26,15 @@
 >
 > Season can only be deleted, if and only if it has not been active yet (i.e, no gather has taken place in the season)
 
+* [X] Create League
 * [ ] Update League
 * [ ] Disable League
 * [ ] Add Season
 * [ ] Update Season
 * [ ] End Season
+* [ ] Set Info
+  * [X] TeamSizes
+  * [X] Add/Remove Maps
 
 # Stats and Info
 
@@ -49,7 +53,8 @@
 * [ ] Create Signup
 * [ ] Create Gather based on Signup
 * [ ] Create Gather without signup (for predetermined teams)
-* [ ]
+* [ ] Handle Abandoned Gathers
+  * [ ] Handle Early forfeit
 
 # Challenging
 
@@ -62,6 +67,11 @@
     * [ ] Player in another signup
     * [ ] Insufficient Privileges
 
+
+
+* [ ] Assign Gameserver
+  * [ ] Error Handling
+
 # Signup
 
 * [ ] Player Signup
@@ -73,11 +83,30 @@
 
 # Select
 
+* [ ] Pick Player
+  * [ ] Error Handling
+    * [ ] Player Picked
+    * [ ] Player not signed
+
 # Pre-Start
+
+* [ ] Spin up gameserver
+* [ ] Verify settings
+* [ ] Player Connect
+* [ ] Connect Timer
+* [ ] Standin
 
 # Start
 
+* [ ] Send Game Started event
+* [ ] Send Round Update events
+
 # End
+
+* [ ] Verify Score
+* [ ] Rank Change
+  * [X] Rudimentary ELO calculation
+  * [ ] Stats Based modifier
 
 # Stats
 
@@ -97,3 +126,8 @@
 * [ ] Gather Paused
 
 # Post-Game
+
+* [ ] Release players
+* [ ] Release Server
+* [ ] Update metadata and stats
+* [ ]
