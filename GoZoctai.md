@@ -46,7 +46,6 @@
 >
 > a Bo3 is simply a collection of 3 gathers, with a thin wrapper that only holds the aggregate score of the individual gathers.
 
-
 * [ ] Create Signup
 * [ ] Create Gather based on Signup
 * [ ] Create Gather without signup (for predetermined teams)
@@ -79,5 +78,22 @@
 # Start
 
 # End
+
+# Stats
+
+* [X] Kill
+* [X] Assist
+* [ ] Damage
+* [ ] Bomb Plant
+* [ ] Round Start
+* [ ] Bomb Defuse
+  * [ ] With Kit
+  * [ ] Without Kit
+  * [ ] Defuse Completed
+* [ ] Round Won
+* [ ] Send Score Update
+* [ ] Gather Start
+* [ ] Gather End
+* [ ] Gather Paused
 
 # Post-Game
