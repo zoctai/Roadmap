@@ -44,6 +44,17 @@
 * [ ] Live Game by Id
 * [ ] Live Game by Player
 
+# Teams and Premades (prelude to mix ladder)
+
+* [ ] Create Team
+* [ ] Add Player
+* [ ] Remove Player
+* [ ] Edit Team
+* [ ] Delete Team
+* [ ] Set Roster
+* [ ] Edit Roster
+* [ ] Challenge other Team
+
 # Gathers
 
 > Gather creation is done in 2 steps, first a signup is created, then when signup is complete, a gather is generated based on the information from the signup. If teams are predetermined, the signup step should be able to be skipped. (to mostly be used in API and not with discord bot)
@@ -59,17 +70,16 @@
 # Challenging
 
 * [ ] Challenge Player
-  * [ ] Accept
-  * [ ] Decline
+
+  * [X] Accept
+  * [X] Decline
   * [ ] Error Handling
     * [ ] Player Already in Gather
     * [ ] Player Sanctioned
     * [ ] Player in another signup
     * [ ] Insufficient Privileges
-
-
-
 * [ ] Assign Gameserver
+
   * [ ] Error Handling
 
 # Signup
@@ -98,20 +108,25 @@
 
 # Start
 
-* [ ] Send Game Started event
+* [X] Send Game Started event
 * [ ] Send Round Update events
+  * [X] New Round Started
+  * [ ] Round Finished
 
 # End
 
 * [ ] Verify Score
 * [ ] Rank Change
   * [X] Rudimentary ELO calculation
-  * [ ] Stats Based modifier
+  * [ ] Stats Based modifiers
 
 # Stats
 
 * [X] Kill
 * [X] Assist
+* [X] Player Connected
+* [X] Player Disconnected
+* [X] New Round Started
 * [ ] Damage
 * [ ] Bomb Plant
 * [ ] Round Start
